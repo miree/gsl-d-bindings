@@ -1,0 +1,9 @@
+{
+	"name": "gsl",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2014, michael",
+	"authors": ["michael"],
+	"libs": ["gsl","gslcblas","m"],
+	"dependencies": {
+	}
+}
