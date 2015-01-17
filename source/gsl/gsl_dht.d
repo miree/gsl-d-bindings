@@ -26,7 +26,7 @@ module gsl.gsl_dht;
 
 struct gsl_dht_struct
 {
-    int size_t;
+    size_t size;
     double nu;
     double xmax;
     double kmax;
