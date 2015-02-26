@@ -93,27 +93,17 @@ struct gsl_odeiv_step
  * gear2  : M=2 implicit Gear method
  */
 
-extern gsl_odeiv_step_type *gsl_odeiv_step_rk2;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rk4;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rkf45;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rkck;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rk8pd;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rk2imp;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rk2simp;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_rk4imp;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_bsimp;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_gear1;
-
-extern gsl_odeiv_step_type *gsl_odeiv_step_gear2;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rk2;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rk4;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rkf45;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rkck;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rk8pd;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rk2imp;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rk2simp;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_rk4imp;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_bsimp;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_gear1;
+extern __gshared gsl_odeiv_step_type *gsl_odeiv_step_gear2;
 
 /* Constructor for specialized stepper objects.
  */

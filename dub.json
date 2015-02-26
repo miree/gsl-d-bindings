@@ -3,6 +3,7 @@
 	"description": "A minimal D application.",
 	"copyright": "Copyright © 2014, michael",
 	"authors": ["michael"],
+	"version": "0.0.0",
 	"libs": ["gsl","gslcblas","m"],
 	"dependencies": {
 	}
