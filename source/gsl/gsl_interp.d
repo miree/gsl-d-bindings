@@ -66,17 +66,17 @@ struct gsl_interp
 
 /* available types */
 
-extern gsl_interp_type *gsl_interp_linear;
+extern __gshared gsl_interp_type *gsl_interp_linear;
 
-extern gsl_interp_type *gsl_interp_polynomial;
+extern __gshared gsl_interp_type *gsl_interp_polynomial;
 
-extern gsl_interp_type *gsl_interp_cspline;
+extern __gshared gsl_interp_type *gsl_interp_cspline;
 
-extern gsl_interp_type *gsl_interp_cspline_periodic;
+extern __gshared gsl_interp_type *gsl_interp_cspline_periodic;
 
-extern gsl_interp_type *gsl_interp_akima;
+extern __gshared gsl_interp_type *gsl_interp_akima;
 
-extern gsl_interp_type *gsl_interp_akima_periodic;
+extern __gshared gsl_interp_type *gsl_interp_akima_periodic;
 
 gsl_interp_accel * gsl_interp_accel_alloc();
 
